@@ -1,3 +1,5 @@
+## BookMyShow Low Level Design
+
 ### Client/User Actor:
 
 The Client/User Actor is the person who uses the BookMyShow platform to book tickets for various events such as movies, concerts, sports, and other entertainment events. The Client interacts with the system through a user interface, which should be designed to provide a seamless user experience, easy navigation, and quick access to information. The user interface should be optimized for different devices and screen sizes, and provide features such as search, filter, and sorting options to help users find events of their choice.
@@ -30,11 +32,4 @@ The System Actor: is responsible for handling user requests, processing data, an
 - Store Event Data: The database server stores the event data such as event details, availability, and pricing.
 - Store User Data: The database server stores the Client data such as Client details and booking history.
 - Retrieve Event Data: The database server retrieves the event data based on the Client's request.
-
-### Payment Gateway Actor:
-
-The Payment Gateway Actor is responsible for processing payment transactions for ticket bookings. The Payment Gateway Actor should be integrated with the BookMyShow system to ensure security, privacy, and data integrity. The integration should also be scalable and fault-tolerant, allowing it to handle sudden spikes in traffic and recover from failures.
-
-##### Events:
-
 - Process Payment Event: The Payment Gateway processes the payment transaction for the booked tickets.
